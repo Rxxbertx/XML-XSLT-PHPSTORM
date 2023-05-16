@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="cinco_1.xslt"?>
+<empresa>
+    <empleado>
+        <apellido>Garcia Gallardo</apellido>
+        <nombre>Jose</nombre>
+    </empleado>
+    <empleado>
+        <apellido>Ruiz Herrero</apellido>
+        <nombre>Maria</nombre>
+        <proyecto>Neuromarketing</proyecto>
+    </empleado>
+</empresa>
