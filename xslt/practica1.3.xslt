@@ -19,7 +19,13 @@
     <xsl:template match="cifp">
 
         <h1><xsl:value-of select="@nombre"/></h1>
-        <span>Pagina web: <a href=""><xsl:value-of select="@web"/></a></span>
+        <p>Pagina web: <a>
+
+            <xsl:attribute name="href"><!-- create the href attribute -->
+                <xsl:value-of select="@web"/>
+            </xsl:attribute>
+
+        <xsl:value-of select="@web"/></a></p>
         <xsl:apply-templates select="ciclos"/>
     </xsl:template>
 
