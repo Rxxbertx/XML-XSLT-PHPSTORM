@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xslt/prueba1.xslt" ?>
+<items>
+    <item>Cuaderno</item>
+    <item>Boligrafo</item>
+    <item>Grapadora</item>
+    <item>Lapicero</item>
+    <item>Rotulador</item>
+    <item>Forro</item>
+    <item>Carpeta</item>
+    <item>Sacapuntas</item>
+    <item>Regla</item>
+</items>

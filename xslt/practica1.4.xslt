@@ -48,27 +48,27 @@
                     Año del título
                 </td>
             </tr>
-            <xsl:apply-templates select="ciclo"/>
+
+            <xsl:for-each select="ciclo">
+                <tr>
+                    <td>
+                        <xsl:value-of select="nombre"/>
+                    </td>
+                    <td>
+                        <xsl:value-of select="grado"/>
+
+                    </td>
+                    <td>
+                        <xsl:value-of select="decretoTitulo/@año"/>
+
+                    </td>
+
+                </tr>
+            </xsl:for-each>
+
         </table>
 
     </xsl:template>
 
-    <xsl:template match="ciclo">
 
-        <tr>
-            <td>
-                <xsl:value-of select="nombre"/>
-            </td>
-            <td>
-                <xsl:value-of select="grado"/>
-
-            </td>
-            <td>
-                <xsl:value-of select="decretoTitulo/@año"/>
-
-            </td>
-
-        </tr>
-
-    </xsl:template>
 </xsl:stylesheet>

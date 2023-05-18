@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="ejer1_1.xsl"?>
-<cifp nombre="C.I.F.P. Juan de Colonia" web="http://www.cefpburgos.es/" >
+<cifp nombre="C.I.F.P. Juan de Colonia" web="https://www.juandecolonia.es/" >
     <ciclos>
         <ciclo id="ASIR">
             <nombre>Administración de Sistemas Informáticos en Red</nombre>

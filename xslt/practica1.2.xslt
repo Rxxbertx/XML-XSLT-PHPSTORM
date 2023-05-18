@@ -3,7 +3,7 @@
     <xsl:output method="html" encoding="UTF-8" indent="yes"/>
     <xsl:template match="ciclos">
         <html>
-            <ul>
+            <ul style="border: 2px solid">
             <xsl:apply-templates />
             </ul>
         </html>
