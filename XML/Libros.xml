@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href='../xslt/libro_1.xslt' type="xslt"?>
 <Libros>
 	<Libro ISBN="8495618826">
 		<Titulo>La Conspiracion</Titulo>
