@@ -22,19 +22,19 @@
     <xsl:template match="editorial">
 
         <h2>
-            
-            <xsl:attribute name="style">font-weight: bold; color: blue; text-decoration: underline</xsl:attribute>
-            
-            
-            Informacion de Editorial
-        
-        
-        </h2>
-        <xsl:apply-templates/>
 
+            <xsl:attribute name="style">font-weight: bold; color: blue; text-decoration: underline</xsl:attribute>
+
+
+            Informacion de Editorial
+
+
+        </h2>
+        <p>
+            <xsl:apply-templates/>
+        </p>
 
     </xsl:template>
-
 
 
 </xsl:stylesheet>

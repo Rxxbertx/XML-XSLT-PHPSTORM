@@ -8,12 +8,14 @@
                 <title>Document</title>
 
                 <style>
-
+                    div{border:4px solid yellow; background-color: orange; padding: 30px}
                 </style>
 
             </head>
             <body>
+                <div>
                 <xsl:apply-templates select="editoriales/editorial"/>
+                </div>
             </body>
         </html>
 
@@ -22,7 +24,7 @@
     <xsl:template match="editorial">
 
 
-        <xsl:if test="position()=1">
+
 
             <h2>
 
@@ -34,7 +36,7 @@
 
             </h2>
 
-        </xsl:if>
+
 
         <p>
             <xsl:apply-templates/>
