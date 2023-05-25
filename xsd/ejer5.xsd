@@ -1,8 +1,50 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
-    <xsd:element name="alumno" type="xsd:complexType"></xsd:element>
+    <xsd:element name="clase">
 
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="alumno" minOccurs="0" maxOccurs="unbounded"/>
+            </xsd:sequence>
+        </xsd:complexType>
+
+
+    </xsd:element>
+
+    <xsd:element name="alumno">
+
+        <xsd:complexType>
+            <xsd:sequence>
+
+                <xsd:element name="nombre"  type="xsd:string"/>
+                <xsd:element name="apellidos"  type="xsd:string"/>
+                <xsd:element ref="notas"/>
+            </xsd:sequence>
+        </xsd:complexType>
+
+    </xsd:element>
+
+      <xsd:element name="notas">
+
+          <xsd:complexType>
+              <xsd:sequence>
+                  <xsd:element type="valorNota" name="eva1"/>
+                  <xsd:element type="valorNota" name="eva2"/>
+                  <xsd:element type="valorNota" name="eva3"/>
+              </xsd:sequence>
+          </xsd:complexType>
+
+      </xsd:element>
+
+
+    <xsd:simpleType name="valorNota" >
+        <xsd:restriction base="xsd:int">
+            <xsd:maxInclusive value="10"/>
+            <xsd:minInclusive value="0"/>
+            <xsd:totalDigits value="2"/>
+        </xsd:restriction>
+    </xsd:simpleType>
 
 
 
