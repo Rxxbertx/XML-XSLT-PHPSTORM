@@ -2,10 +2,56 @@ hoteles{
 
     background:#887700 ;
 
+
 }
 hoteles titulo {
 
     font-weight: bold;
     font-size: x-large;
     display: block;
+    margin: 20px;
+}
+
+hoteles tabla{
+
+    display: table;
+    border-spacing: 2px;
+    border: 1px solid white;
+    margin: 20px;
+    width: 90%;
+
+
+}
+
+hoteles cabecera{
+
+    display: table-row;
+    width: auto;
+    text-align: center;
+    font-weight: bold;
+
+
+
+}
+
+hoteles cabecera *{
+    display: table-cell;
+
+    border: 1px outset;
+    width: auto;
+
+}
+
+hoteles hotel{
+
+    display: table-row;
+
+}
+hoteles hotel * {
+
+    display: table-cell;
+    background: #33ee44;
+    border: 1px outset;
+
+
 }

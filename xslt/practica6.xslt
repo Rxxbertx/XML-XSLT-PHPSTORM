@@ -9,6 +9,7 @@
 
         <hoteles>
             <titulo>HOTELES</titulo>
+            <tabla>
             <cabecera>
                 <nombreHotel>Hotel</nombreHotel>
                 <telfHotel>Telefónos</telfHotel>
@@ -35,7 +36,7 @@
                 </hotel>
 
             </xsl:for-each>
-
+            </tabla>
 
         </hoteles>
 
