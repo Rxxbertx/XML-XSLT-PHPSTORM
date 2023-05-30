@@ -9,38 +9,9 @@
                 <meta charset="UTF-8"/>
 
                 <title>Document</title>
-                <style>
-                    body
-                    {
-                    background-color:#CCCCCC;
-                    padding:20px;
-                    }
-                    table
-                    {
-                    width:300px;
-                    background-color:#333333;
-                    color:#FFFFFF;
-                    font-family:Tahoma;
-                    font-size:12pt;
-                    padding:5px;}
-                    tr
-                    {
-                    width:300px;
-                    background-color:#F69;
-                    color:#000000;
-                    font-family:Tahoma;
-                    font-size:10pt;
-                    padding:5px;
-                    }
 
-                    tr.negrita{
-                    font-weight: bold;
-                    }
-                    tr.centrado{
-                    text-align:center;
-                    }
+                <link rel="stylesheet" type="text/css" href="./css/practica4.css" />
 
-                </style>
             </head>
             <body>
 
@@ -143,3 +114,13 @@
 
 
 </xsl:stylesheet>
+
+
+
+
+
+
+
+
+
+
